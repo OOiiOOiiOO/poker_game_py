@@ -26,4 +26,25 @@ def calc_bet(player):
         
         return bet_amount
 	
-  
+  class Strategy():
+        
+        def __init__(self, player):
+                
+                self.tight=0
+                self.aggression=0
+                self.cool=0
+                self.player=player
+                self.name=str(self.__class__.__name__)
+
+        
+              
+        
+        
+        def play_style(self):
+                
+                pass
+
+        def decide_play(self, player, pot):
+                
+                pass
+
