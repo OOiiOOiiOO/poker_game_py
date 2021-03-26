@@ -384,7 +384,7 @@ class Pot(object):
         self.raised=False
         
 
-    @property
+    
 
     def is_frozen(self):
 
@@ -403,7 +403,7 @@ class Pot(object):
 
         return ytp
 
-    @property
+    
 
     def one_remaining(self):
 
