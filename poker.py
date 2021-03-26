@@ -35,7 +35,7 @@ class Card:
         else:
             return 'XX'
 
-    @property
+    
 
     def value(self):
 
